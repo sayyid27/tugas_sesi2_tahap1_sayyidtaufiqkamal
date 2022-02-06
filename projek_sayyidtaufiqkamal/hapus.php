@@ -16,9 +16,6 @@ switch ($_GET['hapus'])
 					$sql = $koneksi->query(" DELETE from daftar where id = '$id' ");
 	break;
 
-	case 'proses' :	$id=$_GET['id'];				
-					$sql = $koneksi->query(" DELETE from proses where id = '$id' ");
-	break;
 																															
 }
 

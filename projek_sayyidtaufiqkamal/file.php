@@ -17,15 +17,6 @@ if(isset($_GET['open'])) {
 								include "daftar.php";  break;
 								
 
-
-		case 'pesan'   :if(!file_exists ("pesan.php")) die ("File tidak ada"); 
-								include "pesan.php";  break;
-
-		case 'cekpesan'   :if(!file_exists ("cekpesan.php")) die ("File tidak ada"); 
-								include "cekpesan.php";  break;
-
-								
-
 	}
 }
 else { 
